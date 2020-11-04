@@ -1,0 +1,9 @@
+{
+  "name": "php-search",
+  "version": "1.0.0",
+  "description": "simple php search getting response from xmlhttp",
+  "main": "index.php",
+  "repository": "https://github.com/JoaoptGaino/php-search-bar.git",
+  "author": "joaoptgaino <joaoptgaino@hotmail.com>",
+  "license": "MIT"
+}
