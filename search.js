@@ -19,7 +19,7 @@ function getAll() {
             }
         }
     }
-    xmlhttp.open("GET", "getAllDAO.php");
+    xmlhttp.open("GET", "searchDAO.php");
     xmlhttp.send();
 }
 
