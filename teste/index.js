@@ -1,19 +1,13 @@
-const texto = 'joao}';
-
-const retorno = texto.charAt(texto.length - 1).includes(';');
-let novaString = "";
-if (retorno === false) {
-    if (texto.charAt(texto.length - 1).includes('{') || texto.charAt(texto.length - 1).includes('}')) {
-        console.log(texto);
-    } else {
-        console.log("Esqueceu do ponto de virgula");
-        novaString = texto + ";";
-        console.log(`Nova string: ${novaString}`);
+function checaPonto(str) {
+    const retorno = str.charAt(str.length - 1).includes(';');
+    if (retorno === false) {
+        if (str.includes("const joao")) {
+            console.log(str+";");
+        } else {
+            console.log("asdsadsad");
+        }
+    }else{
+        console.log(str);
     }
-
-
-} else {
-    console.log(texto);
-    console.log(texto.charAt(texto.length - 1));
 }
-//console.log(retorno);
+checaPonto("const joao");
